@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/Wooden-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #86512b;
+    color: #f5f5dc;
+    padding: 20px;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background: rgba(245, 245, 220, 0.8);
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+nav button {
+    background-color: #86512b;
+    color: #f5f5dc;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #f5f5dc;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #86512b;
+    text-align: center;
+    width: 400px; /* Увеличена ширина тук */
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.gallery-item p {
+    color: #4a3728;
+    font-weight: bold;
+    margin-top: 10px;
+}

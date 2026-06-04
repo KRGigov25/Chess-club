@@ -1,0 +1,104 @@
+body {
+    background-image: url('../images/Wooden-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    background-color: #86512b;
+    padding: 15px 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+nav button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgba(92, 58, 33, 0.9);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+}
+
+nav button:hover {
+    background-color: #a87f54;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 40px auto;
+    gap: 40px;
+}
+
+.content-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-section img {
+    width: 45%;
+    max-width: 450px;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.text-box {
+    width: 50%;
+    background-color: rgba(253, 251, 247, 0.95);
+    border-left: 6px solid #83502b;
+    border-radius: 4px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h2, h3 {
+    color: #5c3a21;
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+    background-image: url('../images/Wooden-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 40px;
+}
+
