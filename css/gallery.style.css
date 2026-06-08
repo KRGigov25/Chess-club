@@ -33,30 +33,51 @@ nav button {
     cursor: pointer;
 }
 
-.gallery-container {
+
+hr {
+    border: 0;
+    border-top: 1px solid #b58863;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.gallery-grid {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .gallery-item {
-    background-color: #f5f5dc;
-    padding: 10px;
-    border-radius: 8px;
-    border: 2px solid #86512b;
-    text-align: center;
-    width: 400px; /* Увеличена ширина тук */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #f0d9b5;
+    padding: 20px;
+    border: 2px solid #5c3a21;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02);
+}
+
+/* Зигзаг ефект: четните елементи обръщат посоката */
+.gallery-item:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .gallery-item img {
-    width: 100%;
-    border-radius: 4px;
+    width: 50%;
+    border: 3px solid #5c3a21;
 }
 
 .gallery-item p {
-    color: #4a3728;
+    width: 50%;
+    font-size: 1.2em;
+    color: #333;
     font-weight: bold;
-    margin-top: 10px;
 }
