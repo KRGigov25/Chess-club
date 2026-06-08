@@ -100,4 +100,39 @@ body {
     background-attachment: fixed;
 }
 
+.chess-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    border: 5px solid #5c3a21;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
 
+.chess-table th {
+    background-color: #5c3a21;
+    color: #f0d9b5;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #333;
+}
+
+.chess-table td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #d1b18d;
+}
+
+.chess-table tbody tr:nth-child(odd) {
+    background-color: #f0d9b5;
+    color: #333;
+}
+
+.chess-table tbody tr:nth-child(even) {
+    background-color: #b58863;
+    color: white;
+}
+
+.chess-table tbody tr:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+}
