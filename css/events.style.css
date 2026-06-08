@@ -117,3 +117,32 @@ body {
     border-radius: 4px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
+
+.chess-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid #333;
+}
+
+.chess-table tbody tr:nth-child(odd) {
+    background-color: #f0d9b5;
+    color: #333;
+}
+
+.chess-table tbody tr:nth-child(even) {
+    background-color: #b58863;
+    color: white;
+}
+
+.chess-table thead th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.chess-table td {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
