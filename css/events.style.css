@@ -9,11 +9,14 @@ body {
 }
 
 h1 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
     text-align: center;
     background-color: #86512b;
-    color: #f5f5dc;
-    padding: 20px;
-    margin: 0;
+    padding: 17px 0;
+    margin-top: 0;
+    margin-bottom: 9px;
+    width: 100%;
 }
 
 nav {
