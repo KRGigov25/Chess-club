@@ -35,13 +35,6 @@ nav button:hover {
     background-color: #a87f54;
 }
 
-hr {
-    border: 0;
-    border-top: 1px solid #b58863;
-    margin: 20px auto;
-    width: 90%;
-}
-
 .gallery-grid {
     display: flex;
     flex-direction: column;
