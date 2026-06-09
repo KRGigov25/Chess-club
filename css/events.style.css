@@ -44,12 +44,7 @@ nav button:hover {
     margin: 30px auto;
 }
 
-hr {
-    border: 0;
-    border-top: 1px solid #b58863;
-    margin: 20px auto;
-    width: 90%;
-}
+
 
 .main-content {
     display: grid;
