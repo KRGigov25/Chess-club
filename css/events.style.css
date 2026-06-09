@@ -26,7 +26,7 @@ nav {
 }
 
 nav button {
-    background-color: #86512b;
+    background-color: rgba(92, 58, 33, 0.9);
     color: #f5f5dc;
     border: none;
     padding: 10px 15px;
