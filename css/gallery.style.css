@@ -33,6 +33,9 @@ nav button {
     cursor: pointer;
 }
 
+nav button:hover {
+    background-color: #a87f54;
+}
 
 hr {
     border: 0;
