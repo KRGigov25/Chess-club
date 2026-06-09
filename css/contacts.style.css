@@ -34,6 +34,10 @@ nav button {
     cursor: pointer;
 }
 
+nav button:hover {
+    background-color: #a87f54;
+}
+
 main {
     max-width: 600px;
     margin: 20px auto;
